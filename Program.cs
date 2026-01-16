@@ -29,6 +29,7 @@ app.Logger.LogWarning("PIPELINE DEPLOY ACTIVO - VERSION NUEVA");
 app.MapGet("/weatherforecast", (ILogger<Program> logger) =>
 {
     logger.LogInformation("Se llamó al endpoint WeatherForecast");
+    logger.LogWarning("Se llamó al endpoint WeatherForecast con warning");
 
     var forecast =  Enumerable.Range(1, 5).Select(index =>
         new WeatherForecast
