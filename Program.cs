@@ -28,9 +28,6 @@ app.MapGet("/weatherforecast", (ILogger<Program> logger) =>
 {
     logger.LogInformation("Se llamó al endpoint WeatherForecast");
 
-    logger.LogInformation("Deploy automático funcionando");
-
-
     var forecast =  Enumerable.Range(1, 5).Select(index =>
         new WeatherForecast
         (
