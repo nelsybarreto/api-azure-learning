@@ -21,8 +21,10 @@ if (!app.Environment.IsDevelopment())
 
 var summaries = new[]
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scoching"
+    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+
+app.Logger.LogWarning("PIPELINE DEPLOY ACTIVO - VERSION NUEVA");
 
 app.MapGet("/weatherforecast", (ILogger<Program> logger) =>
 {
