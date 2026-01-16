@@ -28,18 +28,8 @@ app.Logger.LogWarning("PIPELINE DEPLOY ACTIVO - VERSION NUEVA");
 
 app.MapGet("/weatherforecast", (ILogger<Program> logger) =>
 {
-    logger.LogInformation("Se llamó al endpoint WeatherForecast");
-    logger.LogWarning("Se llamó al endpoint WeatherForecast con warning");
-
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
+    Console.WriteLine("STDOUT LOG: WeatherForecast llamado en Azure");
+    return Results.Ok("OK desde Azure");
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
