@@ -26,13 +26,11 @@ var summaries = new[]
 
 app.Logger.LogWarning("PIPELINE DEPLOY ACTIVO - VERSION NUEVA");
 
-app.MapGet("/weatherforecast", (ILogger<Program> logger) =>
+app.MapGet("/weatherforecast", () =>
 {
     Console.WriteLine("STDOUT LOG: WeatherForecast llamado en Azure");
     return Results.Ok("OK desde Azure");
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
+});
 
 app.Run();
 
