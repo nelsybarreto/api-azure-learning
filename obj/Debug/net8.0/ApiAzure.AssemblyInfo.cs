@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiAzure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6365284856ab71f7c4e361475b7b4a8c3ac499b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12d880e593954ea5f4cab97497e4f9627ce59194")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiAzure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiAzure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
