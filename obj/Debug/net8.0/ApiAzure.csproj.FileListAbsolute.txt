@@ -31,3 +31,14 @@
 /Users/nelsybarreto/AzureLearning/ApiAzure/obj/Debug/net8.0/ApiAzure.pdb
 /Users/nelsybarreto/AzureLearning/ApiAzure/obj/Debug/net8.0/ApiAzure.genruntimeconfig.cache
 /Users/nelsybarreto/AzureLearning/ApiAzure/obj/Debug/net8.0/ref/ApiAzure.dll
+/Users/nelsybarreto/AzureLearning/ApiAzure/bin/Debug/net8.0/publish/publish/web.config
+/Users/nelsybarreto/AzureLearning/ApiAzure/bin/Debug/net8.0/publish/web.config
+/Users/nelsybarreto/AzureLearning/ApiAzure/bin/Debug/net8.0/publish/ApiAzure.deps.json
+/Users/nelsybarreto/AzureLearning/ApiAzure/bin/Debug/net8.0/publish/ApiAzure.runtimeconfig.json
+/Users/nelsybarreto/AzureLearning/ApiAzure/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/nelsybarreto/AzureLearning/ApiAzure/bin/Debug/net8.0/publish/appsettings.json
+/Users/nelsybarreto/AzureLearning/ApiAzure/bin/Debug/net8.0/publish/publish/ApiAzure.deps.json
+/Users/nelsybarreto/AzureLearning/ApiAzure/bin/Debug/net8.0/publish/publish/ApiAzure.runtimeconfig.json
+/Users/nelsybarreto/AzureLearning/ApiAzure/bin/Debug/net8.0/publish/publish/appsettings.Development.json
+/Users/nelsybarreto/AzureLearning/ApiAzure/bin/Debug/net8.0/publish/publish/appsettings.json
+/Users/nelsybarreto/AzureLearning/ApiAzure/obj/Debug/net8.0/ApiAzure.sourcelink.json
